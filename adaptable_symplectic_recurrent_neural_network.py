@@ -24,7 +24,6 @@ else:
     dev = "cpu"
 
 device = torch.device(dev)
-print(device)
 
 ##### The below class defines an Adaptable HNN of the architecture proposed by Han et al.######
 
